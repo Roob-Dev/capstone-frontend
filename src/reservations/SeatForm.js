@@ -109,7 +109,7 @@ export default function SeatForm() {
           <div className="input-group-append">
             {/*cancel button*/}
             <button
-              className="btn btn-secondary mb-3"
+              className="btn btn-outline-danger mb-3"
               to="/"
               onClick={() => history.goBack()}
             >
@@ -117,7 +117,7 @@ export default function SeatForm() {
               Cancel
             </button>
             {/*submit button*/}
-            <button className="btn btn-primary mb-3" type="submit">
+            <button className="btn btn-outline-info mb-3" type="submit">
               <span className="oi oi-circle-check mr-2" />
               Submit
             </button>
